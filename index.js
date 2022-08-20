@@ -6,8 +6,7 @@ class Employee {
         this.days = days
     }
     getSalary() {
-        let salary = this.rate * this.days;
-        return salary;
+        return this.rate * this.days;
     }
 }
 
